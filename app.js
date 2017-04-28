@@ -8,6 +8,11 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var users = require('./routes/users');
 
+//Environment var needs credentials in the future...
+var mongo_pw = process.env.MONGO_PW;
+var url = 'mongodb://localhost:27017/lakes';
+mongoose.connect(url);
+
 var app = express();
 
 // view engine setup
