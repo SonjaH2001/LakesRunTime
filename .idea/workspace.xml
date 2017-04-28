@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="83808773-8293-4e2f-a18e-bbe4807c6fcc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -276,7 +275,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489708908383</updated>
-      <workItem from="1493342584487" duration="2954000" />
+      <workItem from="1493342584487" duration="2992000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit.&#10;made from express template in Github.&#10;installed mongoose&#10;changed HBS to express-handlebars&#10;added env var to app.js">
       <created>1493343388579</created>
@@ -313,11 +312,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493345426976</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="index.js var lake =req mongoose">
+      <created>1493345575529</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1493345575530</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2954000" />
+    <option name="totallyTimeSpent" value="2992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="854" height="1017" extended-state="0" />
@@ -354,7 +360,8 @@
     <MESSAGE value="made Lake schema in run_time.js" />
     <MESSAGE value="index.hbs code added. shows on localhost3000." />
     <MESSAGE value="added css. not working yet." />
-    <option name="LAST_COMMIT_MESSAGE" value="added css. not working yet." />
+    <MESSAGE value="index.js var lake =req mongoose" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.js var lake =req mongoose" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
