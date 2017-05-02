@@ -2,8 +2,15 @@
 <p> and track your times</p>
 
 <div class="addNewLakeRun">
+    <!--add error message code-->
+    <div class="messages">
+        {{#each messages.error}}
+            <p class="error_msg">{{this}}</p>
+        {{/each}}
+    </div>
+
     <h3>Update your fun run!!</h3>
-    <!--get home page and get user information-->
+    <!--get home page and collect input from user-->
     <form action="/" method="post">
         Name: <input name="name" type="text">
         <br><br>
