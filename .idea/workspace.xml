@@ -24,8 +24,8 @@
       <file leaf-file-name="index.hbs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="620">
+              <caret line="65" column="8" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -279,7 +279,7 @@
       <option name="presentableId" value="Default" />
       <updated>1489708908383</updated>
       <workItem from="1493342584487" duration="2992000" />
-      <workItem from="1493749473416" duration="1601000" />
+      <workItem from="1493749473416" duration="2795000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit.&#10;made from express template in Github.&#10;installed mongoose&#10;changed HBS to express-handlebars&#10;added env var to app.js">
       <created>1493343388579</created>
@@ -344,11 +344,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493750852553</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="index.hbs error msg div added">
+      <created>1493751110926</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1493751110926</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4593000" />
+    <option name="totallyTimeSpent" value="5787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="854" height="1017" extended-state="0" />
@@ -408,7 +415,8 @@
     <MESSAGE value="added express-session and express-flash dependencies" />
     <MESSAGE value="added mongoose-unique-validator" />
     <MESSAGE value="added app.engine hbs code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added app.engine hbs code" />
+    <MESSAGE value="index.hbs error msg div added" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.hbs error msg div added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -521,8 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="620">
+          <caret line="65" column="8" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
           <folding />
         </state>
       </provider>

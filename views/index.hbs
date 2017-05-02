@@ -20,10 +20,53 @@
         <br><br>
         Run Time: <input name="run_time" type="text">
         <br><br>
-        Run Date: <input name="run_date" type="text">
+        Run Date: <input name="run_date" type="datetime-local">
         <br><br><br>
         <input name="addLake" type="submit" value="Add New lake run">
 
     </form>
+
+</div>
+
+<!--show the input-->
+<div class="showLakes">
+    <h3>Lakes and Run Times to date...</h3>
+<!--loop over each item-->
+    {{#each lakes}}
+        <p>Name:  {{this.name}}</p>
+        <p>Description:  {{this.description}}</p>
+        <p>Distance:  {{this.distance}}</p>
+        <p>Run Time:  {{this.run_time}}</p>
+        <p>Run Date:  {{this.run_date}}</p>
+
+        <p>Dates run:</p>
+        <ul>
+            <!--#each loops over the run list .this-->
+            {{#each this.run_date}}
+                <li>
+                    <!--helperName and parameter/ -->
+                    <!--calls the helper function with parameter given-->
+                    <!--dateFormatter this comes w helper-->
+                    {{dateFormatter this}}
+                </li>
+                <li>{{this}}</li>
+            {{else}}
+                <li>No runs yet.</li>
+            {{/each}}
+        </ul>
+        <P>Add new run data</P>
+        <!--should create a new runtime for existing lake-->
+        <form action="/addDate" method="post">
+            <!--add and require input-->
+            <input name="dateRun" type="datetime-local" required>
+            <input name="_id" type="hidden" value="{{this._id}}">
+            <input name="name" type="hidden" value="{{this.name}}">
+            <input name="add" type="submit" value="Add new run">
+        </form>
+
+
+    {{/each}}
+
+
 
 </div>
