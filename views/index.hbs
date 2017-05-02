@@ -69,9 +69,14 @@
             <input  type="hidden" name="_id" value="{{this.id}}">
             <input class="delete_button" type="submit" name="delete" value="Delete run">
         </form>
-
-
-
+            <br><br>
+        <form class="update_form" action="/modifyRun" method="post">
+            <input type="hidden" name="_id" value="{{this.id}}">
+            <input class="update_button" type="submit" name="update" value="Update this record">
+        </form>
+        <br>
+    {{else}}
+        <p>No run in the database</p>
     {{/each}}
 
 

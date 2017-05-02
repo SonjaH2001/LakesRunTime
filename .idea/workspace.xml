@@ -24,8 +24,8 @@
       <file leaf-file-name="index.hbs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="72" column="8" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+            <state relative-caret-position="623">
+              <caret line="78" column="37" lean-forward="false" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -279,7 +279,7 @@
       <option name="presentableId" value="Default" />
       <updated>1489708908383</updated>
       <workItem from="1493342584487" duration="2992000" />
-      <workItem from="1493749473416" duration="3013000" />
+      <workItem from="1493749473416" duration="3230000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit.&#10;made from express template in Github.&#10;installed mongoose&#10;changed HBS to express-handlebars&#10;added env var to app.js">
       <created>1493343388579</created>
@@ -358,11 +358,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493752337347</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="index.hbs added Delete form">
+      <created>1493752527433</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1493752527433</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6005000" />
+    <option name="totallyTimeSpent" value="6222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="854" height="1017" extended-state="0" />
@@ -424,7 +431,8 @@
     <MESSAGE value="added app.engine hbs code" />
     <MESSAGE value="index.hbs error msg div added" />
     <MESSAGE value="index.hbs added Dates run and Add new run forms w/ templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="index.hbs added Dates run and Add new run forms w/ templates" />
+    <MESSAGE value="index.hbs added Delete form" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.hbs added Delete form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -537,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="72" column="8" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+        <state relative-caret-position="623">
+          <caret line="78" column="37" lean-forward="false" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
           <folding />
         </state>
       </provider>
