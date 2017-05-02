@@ -4,11 +4,18 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+//add mongoose/flash/session/hbs
+var mongoose = require('mongoose');
+var flash = require('express-flash');
+var session = require('express-session');
+var hbs = require('express-handlebars');
+
 
 var index = require('./routes/index');
 var users = require('./routes/users');
 
 //Environment var needs credentials in the future...
+//updated for "lakes'
 var mongo_pw = process.env.MONGO_PW;
 var url = 'mongodb://localhost:27017/lakes';
 mongoose.connect(url);
@@ -17,6 +24,13 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
+//add hbs template stuff
+app.engine('.hbs', hbs({
+  extname: '.hbs',
+    defaultLayout: 'layout',
+    helpers:hbshelpers
+    }));
+
 app.set('view engine', 'hbs');
 
 // uncomment after placing your favicon in /public
