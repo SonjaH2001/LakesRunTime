@@ -1,10 +1,27 @@
 var express = require('express');
 var router = express.Router();
-var Lake = require('.../models/lakes');
+var Lake = require('../models/run_time');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+  Lake.find(function(err, lakes){
+    if (err) {
+      return next(err);
+    }
+      res.render('index', { lakes: lakes});
+  })
+});//end of callback
 
+// post to home page and handle the submit form
+router.post('/', function(req, res,next){
+  console.log(req.body);  //help degugging
+    var lake = Lake(req.body);
+    lake.save(function(err, newlake){
+      if (err) {
+        return next(err);
+      }
+      console.log(newlake);
+      return res.redirect('/')
+    })
+});//end of submit callback
 module.exports = router;
