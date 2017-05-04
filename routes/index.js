@@ -24,4 +24,11 @@ router.post('/', function(req, res,next){
       return res.redirect('/')
     })
 });//end of submit callback
+
+//post for delete
+router.post('/deleteRun', function(req, res, next){
+  console.log(req.body); //degguing
+
+    }
+)
 module.exports = router;

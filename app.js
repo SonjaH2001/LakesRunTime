@@ -19,7 +19,7 @@ var users = require('./routes/users');
 var mongo_pw = process.env.MONGO_PW;
 var url = 'mongodb://localhost:27017/lakes';
 mongoose.connect(url);
-
+console.log("hello from app.js");
 var app = express();
 
 // view engine setup
@@ -28,7 +28,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.engine('.hbs', hbs({
   extname: '.hbs',
     defaultLayout: 'layout',
-    helpers:hbshelpers
+    // helpers:hbshelpers
     }));
 
 app.set('view engine', 'hbs');
